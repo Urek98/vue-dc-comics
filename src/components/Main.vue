@@ -23,7 +23,6 @@ export default {
             .text-main{
                 color: white;
                 font-size: 20px;
-                font-family: oswald;
                 padding-top: 40px;
             }
         }

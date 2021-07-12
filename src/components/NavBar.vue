@@ -42,14 +42,12 @@ export default {
       li {
         margin: 0 5px;
         height: 100%;
-        font-family: oswald;
         padding-top: 40px;
         font-size: 12px;
         cursor: pointer;
 
         &:hover{
             color: rgb(4,121,230);
-
             border-bottom: 3px solid rgb(4,121,230);
         }
       }

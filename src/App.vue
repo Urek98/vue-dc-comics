@@ -4,6 +4,7 @@
     <Main/>
     <FooterIcon/>
     <FooterJumbo/>
+    <FooterEnd/>
   </div>
 </template>
 
@@ -12,6 +13,7 @@ import NavBar from './components/NavBar.vue'
 import Main from './components/Main.vue'
 import FooterIcon from './components/FooterIcon.vue'
 import FooterJumbo from './components/FooterJumbo.vue'
+import FooterEnd from './components/FooterEnd.vue'
 
 export default {
   name: 'App',
@@ -20,11 +22,11 @@ export default {
     Main,
     FooterIcon,
     FooterJumbo,
+    FooterEnd,
   }
 }
 </script>
 
 <style lang="scss">
-// importare il nostro scss generico.
 @import "./style/app.scss"
 </style>

@@ -61,7 +61,7 @@ export default {
     justify-content: space-between;
     align-items: center;
     ul {
-        padding: 0 5px;
+        padding-right: 10px;
       h2 {
         padding: 10px 0;
         color: white;

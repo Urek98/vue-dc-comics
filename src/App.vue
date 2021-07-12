@@ -2,21 +2,24 @@
   <div id="app">
     <NavBar/>
     <Main/>
-    <Footer/>
+    <FooterIcon/>
+    <FooterJumbo/>
   </div>
 </template>
 
 <script>
 import NavBar from './components/NavBar.vue'
 import Main from './components/Main.vue'
-import Footer from './components/Footer.vue'
+import FooterIcon from './components/FooterIcon.vue'
+import FooterJumbo from './components/FooterJumbo.vue'
 
 export default {
   name: 'App',
   components: {
     NavBar,
     Main,
-    Footer,
+    FooterIcon,
+    FooterJumbo,
   }
 }
 </script>

@@ -54,7 +54,7 @@ export default {
 
 <style lang="scss" scoped>
 .footer-jumbo {
-  height: 300px;
+  height: 330px;
   background-image: url(../assets/footer-bg.jpg);
   color: white;
   .container {
@@ -75,6 +75,8 @@ export default {
     }
       img {
         width: 400px;
+        position: relative;
+        z-index: 1;
       }
   }
 }

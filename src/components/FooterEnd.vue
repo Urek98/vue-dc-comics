@@ -36,6 +36,8 @@ export default {
     .footer-end{
         height: 80px;
         background-color: rgb(48,48,48);
+        position: relative;
+        z-index: 2;
         .container{
             align-items: center;
             justify-content: space-between;

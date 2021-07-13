@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <NavBar/>
-    <Main/>
+    <Main :comics="comics"/>
     <FooterIcon/>
     <FooterJumbo/>
     <FooterEnd/>
@@ -14,6 +14,7 @@ import Main from './components/Main.vue'
 import FooterIcon from './components/FooterIcon.vue'
 import FooterJumbo from './components/FooterJumbo.vue'
 import FooterEnd from './components/FooterEnd.vue'
+import comicsJson from './jsons/dc-comics.json';
 
 export default {
   name: 'App',
@@ -23,7 +24,12 @@ export default {
     FooterIcon,
     FooterJumbo,
     FooterEnd,
-  }
+  },
+  data: function() {
+    return {
+      comics: comicsJson,
+    };
+  },
 }
 </script>
 
